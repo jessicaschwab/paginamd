@@ -1,0 +1,19 @@
+.boton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    
+    position: absolute;
+    width:150px;
+    height:40px;
+    left: 70px;
+    top: 400px;
+    
+    /* colordegrade */
+    
+    background: linear-gradient(180deg, #F5D426 0%, rgba(38, 245, 208, 0.53) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
