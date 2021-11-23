@@ -1,3 +1,2 @@
 # paginamd
-
-maquetacion en figma 
+pagina web mdcreativas
