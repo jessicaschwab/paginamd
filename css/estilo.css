@@ -1,14 +1,223 @@
-.boton {
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.cabecera {
+    background-color: #000000;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left:0;
+    position:fixed;
+   
+}
+
+
+li{
+    display:list-item;
+}
+
+.cabecera nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+ 
+}
+
+footer {
+    height: 150px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.cabecera a {
+    font-size:18px;
+    display: block;
+    color:white;
+    align-items: center;
+    padding: 10px;
+ 
+}
+
+.cabecera nav ul {
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    margin:10px;
+}
+
+li{
+    padding:10px;
+    display:list-item;
+}
+
+#title-Tag-Line {
+    font-size: 20px;
+  }
+  /* .card-item__bg{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    transform: translate(0px, 50px);
+    z-index: 5;
+  } */
+  
+  /* form animation starts */
+  .form {
+    background: #fe00c8;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  
+  .name {
+    background-color: #ebebeb;
+    color: white;
+  }
+  .name:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: yellow;
+    background-color: #000000;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+
+
+
+.principal{
+    background-image: url(../img/portada.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.formulario{
+    background-image: url(../img/portada.jpg);
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.boton {
+    display: flex;
     align-items: flex-start;
     padding: 20px;
-    
     position: absolute;
     width:150px;
-    height:40px;
-    left: 70px;
-    top: 400px;
+    right:50px;
     
     /* colordegrade */
     
@@ -18,55 +227,104 @@
 
 }
 
-.logo {
+.logofooter img {
     width: 100px;
-    height: 100px;
-}
-
-.cabecera {
-    background-color: #000000;
-    /* padding-top: 5px;
-    padding-bottom: 5px; */
-    width: 100%;
-    /*padding-top:0px;*/
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-    margin: 0%;
-}
-
-.contenedor {
-
-    max-width: 80%;
-    margin: 0 auto;
-
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-
-}
-
-
-
-.navegacion {
-    min-width: 50%;
-}
-
-.navegacion_lista {
-    /* Propiedades que vamos a ver luego en detalle en una clase */
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    /*flex-direction: column;*/
-    align-items: flex-start;
-    padding: 5px 0px 0px 5px;
-    font-family: 'Nunito', sans-serif;
-     
-}
-
-.navegacion_enlace {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
     
+}
+.imagen {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+    position: absolute;
+    left:700px;
+    transform: rotate(-23.89deg);
+}
 
+.mapa{
+    margin:50px;
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+
+}
+
+.parteFooter {
+    width: 25%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+
+
+:root {
+    --color-facebook: #3b5998;
+    --color-instagram: #fe00c8;
+    --color-youtube: #bb0000;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 15px;
+    background-color: #2ecc71;
+}
+
+.icons-container {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.icon:hover {
+    transform: rotate(360deg);
+}
+
+.icon:not(:first-child) {
+    margin-left: 5px;
+}
+
+.icon--facebook {
+    background-color: var(--color-facebook);
+}
+
+.icon--facebook:hover {
+    color: var(--color-facebook);
+    background-color: #fff;
+}
+
+.icon--youtube {
+    background-color: var(--color-youtube);
+}
+
+.icon--youtube:hover {
+    color: var(--color-youtube);
+    background-color: #fff;
+}
+
+.icon--instagram {
+    background-color: var(--color-instagram);
+}
+
+.icon--instagram:hover {
+    color: var(--color-instagram);
+    background-color: #fff;
 }
