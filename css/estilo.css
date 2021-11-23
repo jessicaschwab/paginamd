@@ -17,9 +17,6 @@
 }
 
 
-li{
-    display:list-item;
-}
 
 .cabecera nav {
     display: flex;
@@ -45,6 +42,7 @@ footer {
     color:white;
     align-items: center;
     padding: 10px;
+    text-decoration:none;
  
 }
 
@@ -58,7 +56,7 @@ footer {
 
 li{
     padding:10px;
-    display:list-item;
+    
 }
 
 #title-Tag-Line {
@@ -224,6 +222,7 @@ li{
     background: linear-gradient(180deg, #F5D426 0%, rgba(38, 245, 208, 0.53) 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    text-decoration:none;
 
 }
 
