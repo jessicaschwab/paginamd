@@ -15,13 +15,24 @@
   
 }
 
+
+
+flex-contenedor{
+  display: flex;
+  flex-direction: row;
+
+
+}
 .flex-container {
 
   display: flex;
   flex-direction: row;
   background-color: #000000;
   color: #fff;
+  justify-content: center;
   }
+
+
 
 .cabecera {
     background-color: #000000;
